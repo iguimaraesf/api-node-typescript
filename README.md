@@ -21,3 +21,8 @@
 [Criando controller, tipo de dados de entrada e melhoria no ESLINT](https://www.youtube.com/watch?v=xyjvNhoyVkI&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=9)
 
 - Construção dos Controllers;
+
+[Validações](https://www.youtube.com/watch?v=W-k7h_Ypk6o&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=10)
+
+- Validação "na mão";
+- Biblioteca YUP para validação;
