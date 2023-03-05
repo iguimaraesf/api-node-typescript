@@ -34,3 +34,8 @@
 - Estrutura ```Record```;
 - Tratamento de vários erros de uma só vez;
 - Tradução das mensagens de erro;
+
+[Middleware de validação](https://www.youtube.com/watch?v=0qLDbXV7Y1w&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=12)
+
+- Chamada dos Middlewares;
+- Código em duplicidade para validações no corpo e na linha de requisição;

@@ -1,4 +1,4 @@
-import { Request, Response } from 'express'
+import { Request, RequestHandler, Response } from 'express'
 import { StatusCodes } from 'http-status-codes'
 import * as yup from 'yup'
 
@@ -7,16 +7,24 @@ interface InterfaceCidade {
     estado: string
 }
 
-const validacao: yup.ObjectSchema<InterfaceCidade> = yup.object().shape({
+const validacaoBody: yup.ObjectSchema<InterfaceCidade> = yup.object().shape({
     nome: yup.string().required().min(3),
     estado: yup.string().required().min(3),
 })
 
-export const create = async (req: Request<{}, {}, InterfaceCidade>, res: Response) => {
-    const data = req.body
-    let validatedData: InterfaceCidade | undefined = undefined
+interface InterfaceFiltro {
+    filter?: string
+}
+
+const validacaoQuery: yup.ObjectSchema<InterfaceFiltro> = yup.object().shape({
+    filter: yup.string().min(3)
+})
+
+export const createQueryValidator: RequestHandler<{}, {}, InterfaceCidade> = async (req, res, next) => {
     try {
-        validatedData = await validacao.validate(data, { abortEarly: false })
+        const data = req.query
+        await validacaoQuery.validate(data, { abortEarly: false })
+        return next()
     } catch (err) {
         const yupError = err as yup.ValidationError
         const validationErrors: Record<string, string> = {}
@@ -30,6 +38,29 @@ export const create = async (req: Request<{}, {}, InterfaceCidade>, res: Respons
             errors: validationErrors
         })
     }
-    console.log(validatedData)
+}
+
+export const createBodyValidator: RequestHandler<{}, {}, InterfaceCidade> = async (req, res, next) => {
+    try {
+        const data = req.body
+        await validacaoBody.validate(data, { abortEarly: false })
+        return next()
+    } catch (err) {
+        const yupError = err as yup.ValidationError
+        const validationErrors: Record<string, string> = {}
+
+        yupError.inner.forEach(error => {
+            if (!error.path) return
+
+            validationErrors[error.path] = error.message
+        })
+        return res.status(StatusCodes.BAD_REQUEST).json({
+            errors: validationErrors
+        })
+    }
+}
+
+export const create = async (req: Request<{}, {}, InterfaceCidade>, res: Response) => {
+    console.log(req.body)
     return res.send('Create!')
 }
