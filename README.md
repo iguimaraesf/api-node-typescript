@@ -17,3 +17,7 @@
 [Estrutura de pastas no NodeJS e Typescript](https://www.youtube.com/watch?v=0NCnwiXCks4&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=8)
 
 - Configurações de pastas;
+
+[Criando controller, tipo de dados de entrada e melhoria no ESLINT](https://www.youtube.com/watch?v=xyjvNhoyVkI&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=9)
+
+- Construção dos Controllers;
