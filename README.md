@@ -18,6 +18,8 @@
 
 - Configurações de pastas;
 
+## Camada Web
+
 [Criando controller, tipo de dados de entrada e melhoria no ESLINT](https://www.youtube.com/watch?v=xyjvNhoyVkI&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=9)
 
 - Construção dos Controllers;
@@ -26,3 +28,9 @@
 
 - Validação "na mão";
 - Biblioteca YUP para validação;
+
+[Tradução das mensagens de erro do yup](https://www.youtube.com/watch?v=BpdwZNIyt4o&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=11)
+
+- Estrutura ```Record```;
+- Tratamento de vários erros de uma só vez;
+- Tradução das mensagens de erro;
