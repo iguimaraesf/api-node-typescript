@@ -11,5 +11,9 @@
 
 - Instalação da biblioteca dotenv;
 - No arquivo ```Server.ts```, ```import 'dotenv/config'```;
-- Configuração de porta
-- Configurações de transpilação para javascript para enviar para produção;
+- Configuração de porta;
+- Configurações de transformar typescript em javascript para enviar para produção;
+
+[Estrutura de pastas no NodeJS e Typescript](https://www.youtube.com/watch?v=0NCnwiXCks4&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=8)
+
+- Configurações de pastas;
