@@ -45,3 +45,8 @@
 - Definição de tipos complexos de dados;
 - Isolamento das validações para não repetir código;
 - Uso de tipos genéricos;
+
+[Método para buscar todas as cidades](https://www.youtube.com/watch?v=QAXwzIfW6Rk&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=14)
+
+- Verbos HTTP;
+- Validações para buscar as cidades;
