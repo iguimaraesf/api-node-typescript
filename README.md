@@ -53,3 +53,15 @@
 
 [Finalização do controller de cidades](https://www.youtube.com/watch?v=Hkt_5QGnMw0&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=15)
 
+- Outros métodos do CRUD de cidades;
+- Reaproveitamento da estrutura de validação;
+
+## Testes
+
+[Configuração dos testes com Jest](https://www.youtube.com/watch?v=G6Lo8wk4Y5w&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=16)
+
+- Teste de integração (ou de ponta a ponta), a chamada a cada endpoint;
+- Verificação da resposta do teste;
+- Conversão do typescript para javascript;
+- Exclusão de arquivos de teste para o empacotamento de produção;
+
