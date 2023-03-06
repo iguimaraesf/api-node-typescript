@@ -50,3 +50,6 @@
 
 - Verbos HTTP;
 - Validações para buscar as cidades;
+
+[Finalização do controller de cidades](https://www.youtube.com/watch?v=Hkt_5QGnMw0&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=15)
+
