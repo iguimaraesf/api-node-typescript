@@ -39,3 +39,9 @@
 
 - Chamada dos Middlewares;
 - Código em duplicidade para validações no corpo e na linha de requisição;
+
+[Melhorando a construção das validações](https://www.youtube.com/watch?v=dC3ID_Zu2nI&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=13)
+
+- Definição de tipos complexos de dados;
+- Isolamento das validações para não repetir código;
+- Uso de tipos genéricos;
