@@ -65,3 +65,7 @@
 - Conversão do typescript para javascript;
 - Exclusão de arquivos de teste para o empacotamento de produção;
 
+[Primeiros testes](https://www.youtube.com/watch?v=rNhK8hZncGw&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=17)
+
+- Caminho feliz;
+- Teste de erros de validação;
