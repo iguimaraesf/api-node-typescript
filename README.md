@@ -69,3 +69,7 @@
 
 - Caminho feliz;
 - Teste de erros de validação;
+
+[Outros testes do CRUD](https://www.youtube.com/watch?v=fsAR3dPBOg0&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=18)
+
+- Implementação de outros casos de teste;
