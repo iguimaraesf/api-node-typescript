@@ -73,3 +73,9 @@
 [Outros testes do CRUD](https://www.youtube.com/watch?v=fsAR3dPBOg0&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=18)
 
 - Implementação de outros casos de teste;
+
+[Deploy - Heroku](https://www.youtube.com/watch?v=nR1h_G0HzOk&list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP&index=19)
+
+- Dia 28 de novembro, encerrou os planos gratuitos;
+- Scripts para produção;
+- Procfile do Heroku;
